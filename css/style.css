@@ -1,0 +1,103 @@
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/ 
+
+:root {
+      --white-blue: #dbe3e6;
+    }    
+
+body {
+      margin: 0;
+      overflow-x: hidden;
+}
+
+header{
+      background-image: url(../img/img_arriere_plan/bgd\ drop.png);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+}
+
+#title {
+      font-size: 6vw;
+      color:var(--white-blue);
+}
+
+.headerText {
+      color: var(--white-blue);
+      font-size: 13px;
+}
+
+.scrollIndic {
+      height: 100px;
+      margin-top: auto;
+}
+
+section {
+      width: 100vw;
+      height: 100vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+}
+
+.spaceShip {
+
+      width: 650px;
+      height: 1000px;
+      position: absolute;
+      bottom: -100px;
+      align-self: center;
+      
+      background-image: url('../img/img_elements_visuel/pod_spritesheet.png');
+      background-repeat: no-repeat;
+      
+      
+      animation-name: fall;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: steps(3);
+}
+      
+@keyframes fall {
+      from {
+      background-position: 0 0;
+      }
+      
+      to {
+      background-position: -2000px 0;
+      }
+}
+
+/*---------------------------------------------------------- 
+# Chapitre 1
+----------------------------------------------------------*/ 
+
+#ch1 {
+      background-image: url(../img/img_arriere_plan/landscape-nature-sand-horizon-desert-dune-1124153-pxhere.com.jpg);
+}
+
+/*---------------------------------------------------------- 
+# Chapitre 2
+----------------------------------------------------------*/ 
+
+#ch2 {
+      background-image: url(../img/img_arriere_plan/landscape-nature-sand-horizon-desert-dune-1124153-pxhere.com.jpg);
+}
+
+/*---------------------------------------------------------- 
+# Chapitre 3
+----------------------------------------------------------*/ 
+
+#ch3 {
+      background-image: url(../img/img_arriere_plan/landscape-nature-sand-horizon-desert-dune-1124153-pxhere.com.jpg);
+}
+
+/*---------------------------------------------------------- 
+# Chapitre 4
+----------------------------------------------------------*/ 
+
+#ch4 {
+      background-image: url(../img/img_arriere_plan/landscape-nature-sand-horizon-desert-dune-1124153-pxhere.com.jpg);
+}
